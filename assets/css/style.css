@@ -1,6 +1,117 @@
 body{
-    background-color: antiquewhite;
+    background-image: url("../imgs/bkg.png");
 }
+/*navbar */
+.navbar navbar-default{
+    box-sizing: border-box; 
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #cccccc;
+    text-align: center;
+}
+/*end of navbar*/
+
+/*logo */
+.logo{
+        float: left;
+        font-size: 30px;
+        color:#ffffff;
+        background-color: #4aaaa5;
+        text-align: center;
+       width: 32%;
+       margin-left: 133px; 
+       padding-bottom: 19px;
+    
+}
+/*end of logo*/
+
+/*links*/
+.breadcrumb{
+    float: right;
+    margin-right: 160px;
+  margin-top: 10px;
+}
+/*end of links*/
+
+/*font styling*/
+h1{
+   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h4{
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, ;
+
+}
+a,hr,form{
+    font-family: Arial, Helvetica, sans-serif, Helvetica Neue;
+    color: #777777;
+    font-size: 17px;
+
+}
+
+
+p,logo,a{
+    font-family: Arial, Helvetica, sans-serif, Helvetica Neue;
+    display: inline;
+    line-height: 250%;
+    color: #777777;
+
+}
+/* end of font */
+
+/* link styles */
+a:hover{
+    color:blueviolet;
+}
+a:active{
+    color:blue;
+}
+/* end of link syles */
+
+/* image */
+#mng{
+    padding-right: 10px;
+    padding-top: 10px;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+/* end of image */
+
+/*main container */
+.container{
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #dddddd;
+}
+/* end of main container */
+
+/* aside container */
+.aside{
+    background-color: #ffffff;
+     border: 1px solid;
+     border-color: #dddddd;
+}
+/* end of aside */
+
+/* form */
+input[type=submit] {
+    width: 20%;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 14px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: aquamarine;
+}
+/* end of form */
+
+/* footer */
 footer{
     width: 100%;
     color: #ffffff;
@@ -12,3 +123,23 @@ footer{
     bottom: 0px;
     padding: 20px;
 }
+* {
+    margin: 0;
+  }
+  html, body {
+    height: 100%;
+  }
+  .page-wrap {
+    min-height: 100%;
+    /* equal to footer height */
+    margin-bottom: -142px; 
+  }
+  .page-wrap:after {
+    content: "";
+    display: block;
+  }
+  .site-footer, .page-wrap:after {
+    height: 142px; 
+  }
+  
+/* end of footer */
