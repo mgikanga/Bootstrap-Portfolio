@@ -15,13 +15,19 @@ body{
 .logo{
         float: left;
         font-size: 30px;
-        color:#ffffff;
         background-color: #4aaaa5;
         text-align: center;
-       width: 32%;
+       width: 24%;
        margin-left: 133px; 
        padding-bottom: 19px;
     
+}
+.logo a{
+    text-decoration: none;
+    color:#ffffff;
+    font-family: Arial, Helvetica, sans-serif, Helvetica Neue;
+    display: inline;
+    line-height: 250%;
 }
 /*end of logo*/
 
@@ -51,11 +57,12 @@ a,hr,form{
 }
 
 
-p,logo,a{
+p,a{
     font-family: Arial, Helvetica, sans-serif, Helvetica Neue;
     display: inline;
     line-height: 250%;
     color: #777777;
+    font-size: 18px;
 
 }
 /* end of font */
@@ -80,23 +87,66 @@ a:active{
 /* end of image */
 
 /*main container */
-.container{
+.content{
     box-sizing: border-box;
     background-color: #ffffff;
     border: 1px solid;
     border-color: #dddddd;
+    padding:3%;
+   
 }
 /* end of main container */
 
 /* aside container */
 .aside{
-    background-color: #ffffff;
+    margin-left: 28px;
+    box-sizing: border-box;
+     width: 270px;
+     background-color: #ffffff;
      border: 1px solid;
      border-color: #dddddd;
-}
+     padding: 20px;
+     
+    }
+ 
 /* end of aside */
 
-/* form */
+/* portfolio page styling */
+#work {
+    margin: 10px 0 15px;
+    overflow: auto;
+  }
+  
+ 
+  #work img {
+    width: 100%;
+    height: 40%;
+    border: 0 none;
+    opacity: 0.8;
+  }
+   
+  #work h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 92%;
+    padding: 10px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+  }
+  
+  #auth-image {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+  }
+/* contact styling */
 input[type=submit] {
     width: 20%;
     background-color: #4aaaa5;
